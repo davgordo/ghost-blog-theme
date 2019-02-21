@@ -13,13 +13,13 @@
 
 <main id="content" class="content" role="main">
 
-    <div id="article" class="box {{#if image}}has-image{{/if}}">
-        {{#if image}}
+    <div id="article" class="box {{#if feature_image}}has-image{{/if}}">
+        {{#if feature_image}}
         <div class="image-wrapper">
-            <img src="{{image}}" class="post-image"/>
+            <img src="{{img_url}}" class="post-image"/>
         </div>
         {{/if}}
-    
+
     <article class="{{post_class}}">
 
         <header class="post-header">
@@ -39,9 +39,9 @@
         {{! Everything inside the #author tags pulls data from the author }}
         {{#author}}
 
-            {{#if image}}
+            {{#if feature_image}}
             <figure class="author-image">
-                <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+                <a class="img" href="{{url}}" style="background-image: url({{img_url}})"><span class="hidden">{{name}}'s Picture</span></a>
             </figure>
             {{/if}}
 
