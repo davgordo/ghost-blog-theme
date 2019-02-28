@@ -1,5 +1,8 @@
 {
   "name": "open-persuasion-theme",
   "version": "1.0.0",
-  "author.email": "david.gordon@nusun.us"
+  "author": {
+        "name": "David Gordon",
+        "email": "david.gordon@nusun.us"
+  },
 }
