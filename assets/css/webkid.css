@@ -145,7 +145,7 @@ body * {
   color: #111;
 }
 
-#articles .post a, 
+#articles .post a,
 #articles .post a:visited{
   text-decoration: none;
 }
@@ -361,4 +361,22 @@ a.article-link:visited {
   #taglist {
     display: none;
   }
+}
+
+.kg-width-wide {
+    position: relative;
+    width: 75vw;
+    min-width: 100%;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    transform: translateX(calc(50vw - 50%));
+}
+
+.kg-width-full {
+    position: relative;
+    width: 94vw;
+    min-width: 100%;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    transform: translateX(calc(50vw - 50%));
 }
